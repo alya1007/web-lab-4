@@ -53,10 +53,10 @@ body {
 	align-items: center;
 }
 
-#logo {
+/* #logo {
 	font-size: 2rem;
 	font-weight: 500;
-}
+} */
 
 .navigation {
 	display: flex;

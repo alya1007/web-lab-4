@@ -13,60 +13,22 @@
 		<!-- CHANGE THESE VALUES -->
 		<link rel="stylesheet" href="reset.css" />
 		<link rel="stylesheet" href="style.css" />
-		<link
-			href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-			rel="stylesheet"
-		/>
+		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
 	<body>
-		<section id="landing">
-			<!-- <header class="landing__header">
-				<div id="logo">Interio</div>
-				<button
-					data-collapse-toggle="navigation"
-					type="button"
-					class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-					aria-controls="navigation"
-					aria-expanded="false"
-				>
-					<span class="sr-only">Open main menu</span>
-					<svg
-						class="w-5 h-5"
-						aria-hidden="true"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 17 14"
-					>
-						<path
-							stroke="currentColor"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M1 1h15M1 7h15M1 13h15"
-						/>
-					</svg>
-				</button>
-				<nav
-					id="navigation"
-					class="navigation hidden w-full md:block md:w-auto"
-				>
-					<a href="#statistics">statistics</a>
-					<a href="#walkthrough">walkthrough</a>
-					<a href="#work-flow">work flow</a>
-					<a href="#projects">projects</a>
-					<a href="#testimonials">testimonials</a>
-				</nav>
-				<button class="button landing__button">Contact Us</button>
-			</header> -->
+		<section
+			id="landing"
+			class="min-[1111px]:mb-20 min-[1347px]:mb-30 min-[2348px]:mb-48"
+		>
 			<nav>
 				<div
-					class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+					class="w-10/12 flex flex-wrap items-center justify-between mx-auto"
 				>
-					<div id="logo">Interio</div>
+					<div id="logo" class="text-3xl font-medium">Interio</div>
 					<button
 						data-collapse-toggle="navbar-default"
 						type="button"
-						class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+						class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 hover:text-[#96b08d] focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 transition duration-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
 						aria-controls="navbar-default"
 						aria-expanded="false"
 					>
@@ -106,20 +68,32 @@
 							</li>
 						</ul>
 					</div>
-					<button class="button landing__button">Contact Us</button>
+					<button
+						class="hidden lg:block bg-white text-[#96b08d] border-none py-2 px-7 font-size-sm font-weight-700 pointer transition duration-200 hover:bg-[#e7e3e2]"
+					>
+						Contact Us
+					</button>
 				</div>
 			</nav>
-			<main class="landing__main">
-				<h1 class="title">We Help You Make Modern Interior</h1>
-				<p class="description">
+			<main class="relative">
+				<h1
+					class="text-4xl md:text-5xl font-semibold w-8/12 mt-24 mx-auto md:mt-36 md:text-7xl md:w-6/12 min-[1920px]:w-2/6"
+				>
+					We Help You Make Modern Interior
+				</h1>
+				<p
+					class="pb-24 w-8/12 mt-5 mx-auto mb-0 md:pb-64 md:w-6/12 lg:pb-64 xl:pb-72 2xl:w-8/12 2xl:pb-96 font-light min-[1920px]:w-2/6 min-[2348px]:pb-[500px]"
+				>
 					We are trending to the thousands of details it takes to create a
 					custom home tailored to your lifestyle
 				</p>
-				<img
-					class="landing__image"
-					src="images/header.jpg"
-					alt="header image"
-				/>
+				<div>
+					<img
+						class="static md:absolute md:w-3/5 md:top-[470px] md:right-0 md:left-0 md:bottom-4 md:my-0 md:mx-auto min-[994px]:top-[380px] min-[1347px]:top-[300px] min-[1920px]:top-[400px] min-[2020px]:w-3/6 min-[2020px]:top-[350px]"
+						src="images/header.jpg"
+						alt="header image"
+					/>
+				</div>
 			</main>
 		</section>
 
