@@ -859,10 +859,6 @@ footer h3 {
 	animation-delay: 0s;
 }
 
-.hidden {
-	display: none;
-}
-
 .mascot-container.active {
 	right: 0px;
 }
