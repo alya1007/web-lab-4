@@ -40,130 +40,23 @@ body {
 
 /* Landing Page */
 
+.button {
+	background-color: var(--bg-color);
+	color: var(--primary-color);
+	border: none;
+	padding: 1rem 1.5rem;
+	font-size: 0.8rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.button:hover {
+	background-color: var(--hover);
+}
+
 /* Statistics */
 
-#statistics {
-	padding-top: 300px;
-	width: 70%;
-	margin: 0 auto;
-}
-
-.statistics__text {
-	display: flex;
-	gap: 3%;
-}
-
-.statistics__text h3 {
-	flex: 1;
-	font-size: 2.7rem;
-	font-weight: 600;
-	line-height: 1.1;
-	text-align: left;
-}
-
-.statistics__text h5 {
-	flex: 1;
-	color: var(--font-color-light);
-	line-height: 1.8;
-	text-align: left;
-}
-
-.statistics__container {
-	display: flex;
-	justify-content: space-between;
-	padding: 50px 0;
-	margin-top: 20px;
-	margin-bottom: 50px;
-}
-
-@media screen and (min-width: 1920px) {
-	#statistics {
-		padding-top: 450px;
-	}
-	.statistics__container {
-		margin-bottom: 100px;
-	}
-}
-
-@media screen and (min-width: 1700px) {
-	#statistics {
-		padding-top: 450px;
-	}
-}
-
-@media screen and (max-width: 950px) {
-	#statistics {
-		padding-top: 220px;
-	}
-
-	.statistics__text h3 {
-		font-size: 2.4rem;
-	}
-
-	.statistics__container {
-		padding: 0;
-		margin-top: 100px;
-		gap: 2%;
-	}
-}
-
-.statistics__data {
-	text-align: left;
-}
-
-.statistics__data__number {
-	font-size: 4rem;
-	font-weight: 600;
-}
-
-.statistics__data__number span {
-	color: var(--secondary-color);
-}
-
-.statistics__data__label {
-	font-weight: 600;
-}
-
-@media screen and (max-width: 780px) {
-	.statistics__data__number {
-		font-size: 2rem;
-	}
-}
-
-@media screen and (max-width: 720px) {
-	#statistics {
-		padding-top: 150px;
-	}
-	.statistics__text {
-		gap: 10%;
-	}
-}
-@media screen and (max-width: 533px) {
-	.statistics__text {
-		flex-direction: column;
-		gap: 30px;
-	}
-	.statistics__text h3,
-	.statistics__text h5 {
-		text-align: center;
-	}
-	.statistics__container {
-		flex-direction: column;
-		gap: 30px;
-	}
-	.statistics__data {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 7%;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	#statistics {
-		padding-top: 100px;
-	}
-}
 /* Walkthrough */
 
 #walkthrough {
